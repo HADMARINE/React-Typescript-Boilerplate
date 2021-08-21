@@ -11,9 +11,6 @@ jobs:
       - node/install:
           install-yarn: true
           yarn-version: 1.22.10
-      - run:
-          name: Installing build essentials
-          command: sudo apt -y install build-essential
       - restore_cache:
           keys:
             - root-fb2-dependencies-{{ checksum "package.json" }}

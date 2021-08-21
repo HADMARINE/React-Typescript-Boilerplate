@@ -3,7 +3,13 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
 /src/styles/tailwind.min.css
 
 # testing
@@ -27,3 +33,4 @@ yarn-error.log*
 package-lock.json
 
 .env
+qcert.key
