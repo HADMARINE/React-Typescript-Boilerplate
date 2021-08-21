@@ -9,7 +9,7 @@ jobs:
     steps:
       - node/install:
           install-yarn: true
-          yarn-version: 3.0.1
+          yarn-version: 1.22.11
       - checkout
       - restore_cache:
           keys:
