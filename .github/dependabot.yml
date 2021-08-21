@@ -5,7 +5,8 @@ updates:
   schedule:
     interval: daily
     time: "20:00"
-  open-pull-requests-limit: 10
+  target-branch: develop
+  open-pull-requests-limit: 20
   ignore:
   - dependency-name: "@types/node"
     versions:

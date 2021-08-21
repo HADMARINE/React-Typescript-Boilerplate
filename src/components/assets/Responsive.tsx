@@ -16,7 +16,7 @@ class Responsive extends Component<ResponsiveProps> {
     try {
       this.mediaQuery.addEventListener('change', this.handleMediaQueryChange);
     } catch (e) {
-      this.mediaQuery.addListener(this.handleMediaQueryChange);
+      this.mediaQuery.addListener(this.handleMediaQueryChange); // fallback
     }
     this.handleMediaQueryChange(this.mediaQuery);
   }

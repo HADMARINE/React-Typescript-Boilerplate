@@ -3,18 +3,20 @@ import ReactDOM from 'react-dom';
 import dotenv from 'dotenv';
 
 import App from './App';
-import * as serviceWorker from '@src/serviceWorker';
+import reportWebVitals from '@src/reportWebVitals';
 
 import withProvider from '@util/withProvider';
 
-export const RootComponent = withProvider(<App />);
+export const RootComponent = (
+  <React.StrictMode>{withProvider(<App />)}</React.StrictMode>
+);
 
 function Root(): void {
   dotenv.config();
 
   ReactDOM.render(RootComponent, document.getElementById('root'));
 
-  serviceWorker.unregister();
+  reportWebVitals();
 }
 
 export default Root();

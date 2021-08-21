@@ -1,8 +1,3 @@
-import axiosClient from '@api/axiosClient';
+import client from '@api/client';
 
-export default async function (): Promise<any> {
-  axiosClient.baseClient.defaults.headers.common[
-    'x-access-token'
-  ] = localStorage.getItem('access-token');
-  return await axiosClient.get('/user/test/user');
-}
+export {};
