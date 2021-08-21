@@ -32,5 +32,5 @@ yarn-error.log*
 
 package-lock.json
 
-.env
 qcert.key
+.env
