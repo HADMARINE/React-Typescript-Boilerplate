@@ -10,7 +10,7 @@ jobs:
       - checkout
       - node/install:
           install-yarn: true
-          yarn-version: 1.22.10
+          yarn-version: 3.0.1
       - restore_cache:
           keys:
             - root-fb2-dependencies-{{ checksum "package.json" }}
