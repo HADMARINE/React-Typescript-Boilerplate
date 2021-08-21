@@ -27,6 +27,7 @@ module.exports = {
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/unified-signatures': 'error',
+    '@typescript-eslint/explicit-module-boundary-types': ['off'],
     'no-use-before-define': 'off',
     camelcase: 'error',
     complexity: 'off',
