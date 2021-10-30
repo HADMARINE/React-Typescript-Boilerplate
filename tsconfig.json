@@ -16,8 +16,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "experimentalDecorators": true,
-    "noFallthroughCasesInSwitch": true,
-    "typeRoots": ["./src/types"]
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
