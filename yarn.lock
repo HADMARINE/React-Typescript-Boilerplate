@@ -14446,12 +14446,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.4.1":
-  version: 2.4.1
-  resolution: "prettier@npm:2.4.1"
+"prettier@npm:^2.8.6":
+  version: 2.8.6
+  resolution: "prettier@npm:2.8.6"
   bin:
     prettier: bin-prettier.js
-  checksum: cc6830588b401b0d742862fe9c46bc9118204fb307c3abe0e49e95b35ed23629573807ffdf9cdd65289c252a0bb51fc0171437f6626ee36378dea80f0ee80b91
+  checksum: 8ac94fa67aec0e65743ea15ebf954ef2f1e52638abd129dc04e8b49e8bb3224c0233c98df6b5c98efd31bd2a43866590486559438ee4ead09dc81be389068572
   languageName: node
   linkType: hard
 
@@ -15184,7 +15184,7 @@ fsevents@^1.2.7:
     mobx-state-tree: ^5.0.4
     node-sass: ^6.0.1
     postcss: ^7.0.36
-    prettier: ^2.4.1
+    prettier: ^2.8.6
     quickcert: ^1.1.2
     react: ^17.0.2
     react-app-rewire-alias: ^1.0.3
