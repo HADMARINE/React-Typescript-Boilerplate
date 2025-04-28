@@ -3751,12 +3751,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node-sass@npm:^4.11.2":
-  version: 4.11.2
-  resolution: "@types/node-sass@npm:4.11.2"
+"@types/node-sass@npm:^4.11.8":
+  version: 4.11.8
+  resolution: "@types/node-sass@npm:4.11.8"
   dependencies:
     "@types/node": "*"
-  checksum: c3d3e02d5bd5ed57ff84bb48e94794c249cc11a8b87e1c6460cc27977f255e105b4c088b3e4cd20e5bca1b3101df2cb1b17368eea55c9a2ff8e36b0f5e211bba
+  checksum: 01c406a9520179578d37043990fee90b0967538d22809c974e6957bcff8bf6c47d3f18bbdf75e79f95546da8650eabf64e8f161af5b8a0c8a409eef31780befe
   languageName: node
   linkType: hard
 
@@ -15156,7 +15156,7 @@ fsevents@^1.2.7:
     "@testing-library/user-event": ^13.2.1
     "@types/jest": ^27.0.1
     "@types/node": ^16.11.6
-    "@types/node-sass": ^4.11.2
+    "@types/node-sass": ^4.11.8
     "@types/react": ^17.0.33
     "@types/react-dom": ^17.0.10
     "@types/react-modal": ^3.13.1
