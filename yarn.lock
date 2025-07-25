@@ -7718,10 +7718,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "dotenv@npm:10.0.0"
-  checksum: f412c5fe8c24fbe313d302d2500e247ba8a1946492db405a4de4d30dd0eb186a88a43f13c958c5a7de303938949c4231c56994f97d05c4bc1f22478d631b4005
+"dotenv@npm:^17.2.1":
+  version: 17.2.1
+  resolution: "dotenv@npm:17.2.1"
+  checksum: 2a3842a5451eb64f41cd11bd30d4d9d83941058f952f5e3adc3ca470d381e46ed8acbb0c0e3059da9725df91b42796987fa1deb032fafac992c37b94870ef085
   languageName: node
   linkType: hard
 
@@ -15170,7 +15170,7 @@ fsevents@^1.2.7:
     axios: ^0.24.0
     core-decorators: ^0.20.0
     cross-env: ^7.0.3
-    dotenv: ^10.0.0
+    dotenv: ^17.2.1
     eqb-request-client: 0.7.0-rc3
     eslint: ^7.32.0
     eslint-config-prettier: ^8.3.0
